@@ -12,8 +12,8 @@ od = ObjectDetection()
 
 # video path, edit the input path here
 input_path='test.mp4'
-# 
-
+# output path, edit the output path here
+output_path='PNGoutput'
 
 #load videos
 cap = cv2.VideoCapture(input_path)
@@ -45,7 +45,7 @@ while True:
 
     #save images
     number=number+1
-    savePath='PNGresults/'+'%s.jpg' %(str(number))
+    savePath=output_path+'%s.jpg' %(str(number))
     cv2.imwrite(savePath,frame)
     print('figure %s saved' %(str(number)))
             
