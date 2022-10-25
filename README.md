@@ -1,6 +1,7 @@
 # ground-detector-based-on-YOLOv4
 
-N.B. some files are failed to upload, the code cannot run correctly
+N.B. some files are failed to upload, the code cannot run correctly at present
+     This is a part of a group project of a college course
 
 start_detector_Edit_video_mode.py
     This is a simple program to dectect scenes of a video
