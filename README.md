@@ -9,4 +9,4 @@ start_detector_Edit_video_mode.py
     https://github.com/Integrationasd/ground-detector-based-on-YOLOv4/blob/detector/start_detector_Edit_video_mode.py#:~:text=%23%20video%20path%2C%20edit,%3D%27PNGoutput%27
 
 object_detection.py
-    This file contains the network of detector
+    This file contains the detector, using the settings and weights in folder "dnn_model"
