@@ -50,7 +50,7 @@ while True:
     print('figure %s saved' %(str(number)))
             
     #show output
-    cv2.imshow("output", frame)
+    cv2.imshow("dnn_model/output", frame)
 
     #end loop,press esc to exit
     k=cv2.waitKey(1)
