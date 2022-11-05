@@ -27,7 +27,7 @@ while True:
     (class_ids, scores, boxes) = od.detect(frame)
 
     #open classes name file
-    file=open("dnn_model\classes.txt")
+    file=open("dnn_model/classes.txt")
     classes=file.readlines()
     file.close()
 
